@@ -6,7 +6,7 @@ gEngine.Core = (function() {
     mCanvas.height = mHeight;
     mCanvas.width = mWidth;
 
-    var mPublic = {
+    let mPublic = {
         mWidth,
         mHeight,
         mContext
